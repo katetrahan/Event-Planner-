@@ -14,7 +14,13 @@ public class EventTest {
     @Test
     public void newEvent_createsScenarioListArray() {
         Events testEvents = new Events ("less than 20");
-        assertEquals(100, testEvents.getScenarioSize());
+        assertEquals(4, testEvents.getScenarioSize());
+    }
+
+    @Test
+    public void newEvent_acceptsInput_String(){
+        Events testEvents = new Events ("begin");
+        assertEquals("begin",testEvents.getResponse());
     }
 
 }

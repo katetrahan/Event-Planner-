@@ -1,5 +1,5 @@
 import models.Events;
-//import models.Party;
+import models.Party;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -23,11 +23,7 @@ public class App {
 //            e.printStackTrace();
 //        }
 
-//        Events partyOne = new Events();
-//        partyOne.getPeople("20");
-//        partyOne.getFood("snacks");
-//        partyOne.getBooze("no booze");
-//        partyOne.getEntertainment("no band");
+
 
 
         System.out.println("Hello, we are so happy you have chosen Kate's Party Planning to help organize your party. Type 'begin' to start or 'opt out' to end program.");
@@ -40,12 +36,19 @@ public class App {
                 String userInput = bufferedReader.readLine();
                 Events newEvents = new Events(userInput);
 
+                Party small = new Party();
+                small.people= 100;
+                small.food = 150;
+                small.booze = 50;
+                small.entertainment= 0;
+
                 if (userInput.equals("begin")) {
                     System.out.println(newEvents.getCurrentMessage());
                 } else if (userInput.equals("opt out")) {
 //                    System.out.println(newEvents.getOptOutMessage());
                     party = false;
                 } else if(userInput.equals("less than 20")||(userInput.equals("more than 20"))){
+                    System.out.println(small.people);
                     System.out.println("Parties of less than 20 cost:$100. Parties of more than 20 cost: $200");
                     System.out.println(newEvents.scenarioOneMessage());
                 } else if(userInput.equals("full course meal")||(userInput.equals("snacks"))) {

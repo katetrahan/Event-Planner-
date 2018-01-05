@@ -52,6 +52,10 @@ public class Events {
 //        return currentMessage;
 //    }
 
+    public String getResponse(){
+      return currentMessage;
+    }
+
 
     public String getOptOutMessage() {
       return optOutMessage;
