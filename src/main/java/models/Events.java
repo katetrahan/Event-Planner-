@@ -4,12 +4,23 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+
 public class Events {
     private String currentMessage;
     private List<String> scenarios;
     private String optOutMessage;
     private String userInput;
+    private String people;
+    private String food;
+    private String booze;
+    private String entertainment;
 
+//    public Events( String people,String food,booze,entertainment) {
+//        mPeople = people;
+//        mFood = food;
+//        mBooze = booze;
+//        mEntertainment = entertainment;
+//    }
 
 
   public Events (String userInput) {
@@ -23,16 +34,23 @@ public class Events {
        scenarios.add("Thank you for your submission! We will contact you shortly");
   }
 
-    public Events() {
-         String people;
-         String food;
-         String booze;
-         String entertainment;
-    }
 
-    public String getPeople(){
-      return currentMessage;
-    }
+
+//    public String getPeople(){
+//        return mPeople;
+//    }
+//
+//    public String getFood(){
+//        return currentMessage;
+//    }
+//
+//    public String getBooze(){
+//        return currentMessage;
+//    }
+//
+//    public String getEntertainment(){
+//        return currentMessage;
+//    }
 
 
     public String getOptOutMessage() {
