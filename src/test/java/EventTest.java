@@ -23,4 +23,10 @@ public class EventTest {
         assertEquals("Great, lets start with the number of guests. Type 'more than 20' or 'less than 20' for number of people attending",testEvents.getResponse());
     }
 
+    @Test
+    public void newEvent_addsCostBasedOnInput_Int(){
+        Events testEvents = new Events ("less than 20");
+        assertEquals(java.util.Optional.of(100),testEvents.getCost()); //Optional provided by Java
+    }
+
 }

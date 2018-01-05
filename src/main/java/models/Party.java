@@ -8,10 +8,9 @@ public class Party {
     public int entertainment;
 
 
-    public int partyCost(int totalCost){
-        return ( people+ food + booze + entertainment);
-    }
-
-
-
 }
+
+
+
+
+
