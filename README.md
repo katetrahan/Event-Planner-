@@ -33,10 +33,10 @@ _If you have any issues or have questions, ideas or concerns please email kathry
 
 ## Technologies Used
 
-* _HTML_
-* _CSS_
-* _JavaScript_
-* _jQuery-3.2.1_
+* _Java_
+* _IntelliJ_
+* _JUnit_
+
 
 ### License
 Copyright (C) 2017 Kate Trahan
