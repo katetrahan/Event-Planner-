@@ -11,4 +11,10 @@ public class EventTest {
         assertEquals("Great, lets start with the number of guests. Type 'more than 20' or 'less than 20' for number of people attending", testEvent.getCurrentMessage());
     }
 
+    @Test
+    public void newEvent_createsScenarioListArray() {
+        Events testEvents = new Events ("less than 20");
+        assertEquals(100, testEvents.getScenarioSize());
+    }
+
 }
