@@ -18,9 +18,16 @@
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 
+
 # Gradle:
 .idea/**/gradle.xml
 .idea/**/libraries
+build/
+.gradle/
+.idea/
+gradle/
+gradlew*
+settings.gradle
 
 # CMake
 cmake-build-debug/
@@ -64,11 +71,7 @@ fabric.properties
 
 # Sonarlint plugin
 .idea/sonarlint
-build/
-.gradle/
-.idea/
-gradle/
-gradlew*
-settings.gradle
+
+
 
 # End of https://www.gitignore.io/api/intellij
