@@ -11,6 +11,4 @@ public class EventTest {
         assertEquals(true,"Great, lets start with the number of guests. Type 'more than 20' or 'less than 20' for number of people attending");
     }
 
-
-
 }
