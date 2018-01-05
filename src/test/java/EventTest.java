@@ -20,7 +20,7 @@ public class EventTest {
     @Test
     public void newEvent_acceptsInput_String(){
         Events testEvents = new Events ("begin");
-        assertEquals("begin",testEvents.getResponse());
+        assertEquals("Great, lets start with the number of guests. Type 'more than 20' or 'less than 20' for number of people attending",testEvents.getResponse());
     }
 
 }
