@@ -14,6 +14,8 @@ _This is an application that uses Java to return a cost of an event based on a p
 | :-------------     | :------------- | :-------------
 | **Can ask initial prompt**| "Hello, let's begin" | "Hello, let's begin" |
 | **Can return additional prompt**| "begin" | "Great, how many people are attending your event" |
+| **Can assign costs to values**| "full bar" | "300"|
+| **Can add numbers**| "300 +300" | "600" |
 
 
 

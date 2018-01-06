@@ -7,9 +7,11 @@ public class Party {
     public int booze;
     public int entertainment;
 
+    public int totalCost = (people + food + booze + entertainment);
+
+
 
 }
-
 
 
 

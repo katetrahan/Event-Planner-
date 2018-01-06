@@ -9,9 +9,9 @@ public class Events {
     private String currentMessage;
     private List<String> scenarios;
     private String optOutMessage;
-    private Integer costMessage;
-    private List<Integer> cost;
-    private Integer costTotal;
+//    private Integer costMessage;
+//    private List<Integer> costs;
+//    private Integer costTotal;
     private String userInput;
 //    private String people;
 //    private String food;
@@ -47,14 +47,14 @@ public class Events {
        scenarios.add("Thank you for your submission!We will contact you shortly");
   }
 
-  public Events (Integer userInput){
-        cost = new ArrayList<>();
-        this.costMessage = 300;
-
-        cost.add(600);
-        cost.add(700);
-        cost.add(900);
-  }
+//  public Events (Integer userInput){
+//        costs = new ArrayList<>();
+//        this.costMessage = 300;
+//
+//        costs.add(600);
+//        costs.add(700);
+//        costs.add(900);
+//  }
 
 
 
@@ -78,11 +78,9 @@ public class Events {
       return currentMessage;
     }
 
-    public Integer getCost(){
-        return costMessage;
-    }
-
-
+//    public Integer getCost(){
+//        return costMessage;
+//    }
 
 
 
@@ -94,11 +92,11 @@ public class Events {
       return currentMessage;
   }
 
-  public int getScenarioSize() {
+  public Integer getScenarioSize() {
       return scenarios.size();
   }
 
-  public int getCostMessage() {return costMessage;}
+//  public Integer getCostMessage() {return costMessage;}
 
   public String scenarioOneMessage(){
       currentMessage = scenarios.get(0);
@@ -120,10 +118,10 @@ public class Events {
       return currentMessage;
   }
 
-  public Integer returnCostOfParty() {
-      costMessage = cost.get(0);
-      return costMessage;
+//  public Integer returnCostOfSmallParty() {
+//      costMessage = this.costMessage;
+//      return costMessage;
 
   }
 
-}
+
